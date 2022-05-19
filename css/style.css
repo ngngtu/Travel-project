@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2d4271;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #2d4271;
+}
+
+img{
+    width: 100%;
+}
+
+.home-page__title{
+    font-size: 30px;
+    color: #2d4271;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    font-size: 16px;
+    color: #2d4271;
+    font-weight: 700;
+}
+
+.card-text-time{
+    font-size: 13px;
+    color: #2d4271;
+    margin-bottom: 4px;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #2d4271;
+}
+
+.card-text-old-price{
+    text-decoration: line-through;
+}
+
+.card-text-current-price{
+    font-size: 18px;
+    color: #fd5056;
+}
+
+.carousel-item img{
+    border-radius: 5px;
+}
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicators .btn-carousel{
+    height: 12px !important;
+    width: 12px !important;
+    border: none;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #2d4271;
+}
+
+.carousel-indicators .active{
+    background-color: #2d4271;
+}
+
+.explore-tour--item__image{
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.explore-tour--item .explore-tour--item__image img{
+    height: 330px;
+    width: 240px;
+}
+
+.card-img__overlay{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.card-img--title{
+    margin-bottom: 20px;
+}
+
+.card-img--title a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.card--hover:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 8px 8px rgba(179, 162, 162, 0.6);
+}
+
+/* home-page__combo */
+
+.home-page__combo .combo-btn{
+    background-color: #2d4271;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.combo-item__detail{
+    padding: 16px;
+}
+
+.card-text-discount{
+    font-size: 11px;
+    color: #fff;
+}
+
+.combo-title{
+    font-size: 15px;
+    color: #2d4271;
+    font-weight: 700;
+}
+
+.combo-text{
+    font-size: 12px;
+    color: #2d4271;
+}
+
+.combo-price{
+    font-size: 20px;
+    color: #fd5056;
+    font-weight: 700;
+}
+
+.combo-icon i{
+    color: #fdc432;
+}
+
+.combo-box{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdc432;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.combo-cta .combo--summary{
+    padding: 4px 8px;
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.combo-item__summary{
+    padding: 16px;
+    text-align: right;
+}
+
+.home-page__combo .combo-item__img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+/* home-page__destination */
+
+.destination-item__img img{
+    height: auto;
+    min-height: 207px;
+    border-radius: 10px;
+}
+
+.destination-item__title{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.destination-item__title:hover{
+    cursor: pointer;
+    color: #0d6efd;
+}
+
+.destination-item__description{
+    font-size: 13px;
+}
+
+/* home-page__why-vietravel */
+
+.why-item{
+    text-align: center;
+}
+
+.why-item i{
+    color: #2d4271;
+    font-size: 60px;
+}
+
+.why-item__title{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.why-item__description{
+    font-size: 15px;
+}
+
+/* footer-top */
+
+.footer{
+    font-size: 13px;
+}
+
+.footer-top-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 100%;
+}
+
+.footer-top .two-line{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.footer-top .app,
+.footer-top .mb-app{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* footer-bottom */
+
+.copy-right{
+    border-top: 1px solid #2d4271;
+    padding: 8px 0;
+}
+
+.copy-right p{
+    margin-bottom: 0px !important;
+}
+
